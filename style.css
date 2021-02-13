@@ -364,8 +364,13 @@ footer .Copyright p{
 	.hamberger{
 		display: block;
 	}
+	header{
+		background: var(--dark);
+		width: 450px;
+	}
+
 	.hero .left img{
-		width: 200px;
+		width: 250px;
 	}
 	.hero .right h1{
 		font-size: 1rem;
@@ -379,12 +384,20 @@ footer .Copyright p{
 	section.about .about-me-img{
 		height: 360px;
 	}
+	section.project{
+		background: var(--dark);
+		width: 420px;
+	}
+
 	section.project .card-wrapper{
 		grid-template-columns: repeat(1, 1fr);
 		
 	}
 	section.project{
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97%, 0 100%);
+	}
+	section.contact{
+		width: 420px;
 	}
 	
 }
