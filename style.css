@@ -361,6 +361,8 @@ footer .Copyright p{
 	header #main-nav{
 		display: none;
 	}
+
+	
 	.hamberger{
 		display: block;
 	}
@@ -399,7 +401,10 @@ footer .Copyright p{
 	section.contact{
 		width: 420px;
 	}
-	
+	footer{
+		background: var(--dark);
+		width: 420px;
+	}	
 }
 @media (max-width:650px){
 	.hero{
