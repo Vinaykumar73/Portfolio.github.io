@@ -388,7 +388,7 @@ footer .Copyright p{
 	}
 	section.project{
 		background: var(--dark);
-		width: 420px;
+		width: 430px;
 	}
 
 	section.project .card-wrapper{
@@ -403,7 +403,7 @@ footer .Copyright p{
 	}
 	footer{
 		background: var(--dark);
-		width: 420px;
+		width: 440px;
 	}	
 }
 @media (max-width:650px){
